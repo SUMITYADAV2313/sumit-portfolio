@@ -1,0 +1,53 @@
+.resume-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #161513;
+}
+
+.resume-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100);
+}
+
+.resume-section p {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-view,
+.btn-download {
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-view {
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+}
+
+.btn-view:hover {
+  background-color: #0056b3;
+}
+
+.btn-download {
+  background: linear-gradient(270deg, #DF8908 20%, #B415FF);
+  color: #fff;
+  border: 2px solid white;
+}
+
+.btn-download:hover {
+ transform: scale(1.1);
+ transition: 0.3s;
+}
